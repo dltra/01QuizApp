@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 System.out.println("Hello mom");
                 Log.i("testButton","Hi dad! "+responseText.getText().toString());
+                displayText.setText(displayText.getText().toString()+" "+responseText.getText().toString());
             }
         });
     }
